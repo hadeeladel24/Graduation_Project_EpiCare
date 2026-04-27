@@ -1,0 +1,159 @@
+# name: epilepsy_care_app
+# description: تطبيق رعاية مرضى الصرع مع مراقبة صحية ونظام طوارئ ذكي
+# publish_to: 'none'
+# version: 1.0.0+1
+
+# environment:
+#   sdk: ">=2.19.0 <3.0.0"
+
+# dependencies:
+#   flutter:
+#     assets:
+#       - assets/sounds/alarm.wav
+
+#     sdk: flutter
+#   http: ^1.1.0
+#   # UI Components
+#   cupertino_icons: ^1.0.6
+#   flutter_svg: ^2.2.2
+#   rename_app: ^1.6.5
+#   firebase_auth: ^6.1.1
+#   firebase_database: ^12.0.4
+#   firebase_core: ^4.2.1
+#   flutter_blue_plus: ^1.20.0
+#   web_socket_channel: ^3.0.3
+#   socket_io_client: ^2.0.0
+#   cloud_firestore: ^6.1.0
+  
+  
+#   # Charts
+#   fl_chart: ^1.1.1
+#   vector_math: ^2.1.2 
+  
+#   # Location
+#   geolocator: ^14.0.2
+#   geocoding: ^4.0.0
+#   google_maps_flutter: ^2.5.0
+#   flutter_map: ^6.0.0
+#   latlong2: ^0.9.0
+
+#   # Emergency System
+#   flashlight: ^3.0.0
+#   wakelock_plus: ^1.1.0
+#   audioplayers: ^6.0.0
+#   firebase_messaging: ^14.7.0
+#   camera: ^0.11.0
+  
+
+#   # Notifications
+#   flutter_local_notifications: ^19.5.0
+  
+#   # URL Launcher (for phone calls)
+#   url_launcher: ^6.3.2
+  
+#   # State Management
+#   provider: ^6.1.1
+  
+#   # Intl for localization
+#   intl: ^0.20.2
+
+# dev_dependencies:
+#   flutter_test:
+#     sdk: flutter
+#   flutter_launcher_icons: ^0.14.4
+  
+
+
+# flutter:
+#   uses-material-design: true
+  
+#   # Add fonts if needed
+#   # fonts:
+#   #   - family: Cairo
+#   #     fonts:
+#   #       - asset: fonts/Cairo-Regular.ttf
+#   #       - asset: fonts/Cairo-Bold.ttf
+#   #         weight: 700
+
+
+name: epilepsy_care_app
+description: تطبيق رعاية مرضى الصرع
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.2
+  # ❤️ Firebase)
+  firebase_core: ^3.7.0
+  firebase_auth: ^5.2.0
+  firebase_database: ^11.1.0
+  cloud_firestore: ^5.4.0
+  firebase_messaging: ^15.2.10
+  flutter_launcher_icons: ^0.13.1
+  # flutter_background_service: ^2.4.1
+  # flutter_bluetooth_serial: ^0.4.0
+  flutter_bluetooth_serial:
+    git:
+      url: https://github.com/edufolly/flutter_bluetooth_serial.git
+
+
+  permission_handler: ^11.4.0
+  pdf: ^3.10.6
+  printing: ^5.12.0
+  path_provider: ^2.1.2
+  open_file: ^3.3.2
+
+  # 📍 الموقع فقط — بدون Google Maps
+  geolocator: ^14.0.2
+  geocoding: ^4.0.0
+
+  # 🗺️ خريطة مفتوحة (بدون API   )
+  flutter_map: ^6.0.0
+
+  latlong2: ^0.9.0
+
+  # 🔊 صوت الإنذار
+  audioplayers: ^6.0.0
+
+  # 📡 WebSocket
+  web_socket_channel: ^3.0.3
+  socket_io_client: ^2.0.0
+
+  # 🔋 BLE
+  flutter_blue_plus: ^1.20.0
+
+  # 🎨 UI
+  flutter_svg: ^2.2.2
+  cupertino_icons: ^1.0.6
+
+  # 🔒 أخرى
+  wakelock_plus: ^1.1.0
+  camera: ^0.11.0
+  flutter_local_notifications: ^17.2.1
+  url_launcher: ^6.3.2
+  provider: ^6.1.1
+  intl: ^0.20.2
+  fl_chart: ^1.1.1
+  vector_math: ^2.1.2
+  flutter_localizations:
+    sdk: flutter
+  easy_localization: ^3.0.7
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.jpg"
+ 
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/sounds/alarm.wav
+    - assets/translations/
+    - assets/fonts/Amiri-Regular.ttf
+    - assets/ML/feature_cols.json

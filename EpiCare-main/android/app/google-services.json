@@ -1,0 +1,29 @@
+{
+    "project_info": {
+        "project_number": "716168221491",
+        "project_id": "epicare-v1",
+        "storage_bucket": "epicare-v1.firebasestorage.app"
+    },
+    "client": [
+        {
+            "client_info": {
+                "mobilesdk_app_id": "1:716168221491:android:709b5f048cd819b7f4e446",
+                "android_client_info": {
+                    "package_name": "com.example.my_app"
+                }
+            },
+            "oauth_client": [],
+            "api_key": [
+                {
+                    "current_key": "AIzaSyAVOKWPCPrdRuOIuLnRuudMhAwAJGIHUiY"
+                }
+            ],
+            "services": {
+                "appinvite_service": {
+                    "other_platform_oauth_client": []
+                }
+            }
+        }
+    ],
+    "configuration_version": "1"
+}
